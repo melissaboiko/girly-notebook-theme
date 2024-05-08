@@ -4,7 +4,7 @@
 ;; URL: https://github.com/melissaboiko/girly-notebook
 ;; Created: May 8, 2024
 ;; Modified: May 8, 2024
-;; Version: 1.1
+;; Version: 1.2
 ;; Package-Requires: ((emacs "26.1"))
 
 ;; This package is free software: you can redistribute it and/or
@@ -17,7 +17,8 @@
 
 ;;; Commentary:
 
-;; A light theme with vivid colours and cursive text.  Inspired by schoolgirl notebooks and chee's lychee-theme.el .
+;; A light theme with vivid colours and cursive text.  Inspired by
+;; schoolgirl notebooks and chee's lychee-theme.el .
 
 ;; Requires the following system fonts to be installed:
 
@@ -25,12 +26,18 @@
 ;; - Iosevka Aile
 ;; - Victor Mono
 
+;; Notice that different fonts might not align in monospace.  If you
+;; customise the fonts, I recommend using my package `show-font-mode'
+;; to compare glyph pixel sizes and adjust face proportions until
+;; their pixel width is the same.
+
 ;;; Code:
 
 (deftheme girly-notebook
-  "girly-notebook: I love you and colours more.
+  "A light theme based on chee's lychee-theme.el.
 
-A light theme based on chee's lychee-theme.el.  Requires the following fonts:
+Requires the following fonts:
+
  - Iosevka SS05
  - Iosevka Aile
  - Victor Mono"
@@ -85,7 +92,8 @@ A light theme based on chee's lychee-theme.el.  Requires the following fonts:
  '(match ((((class color) (min-colors 88) (background light)) (:background "khaki1")) (((class color) (min-colors 88) (background dark)) (:background "RoyalBlue3")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "blue")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (isearch)))))
- '(custom-state ((t (:foreground "lime green")))))
+ '(custom-state ((t (:foreground "lime green"))))
+ '(sh-heredoc ((t (:inherit italic :foreground "dark orange")))))
 
 ;;;###autoload
 (when load-file-name
