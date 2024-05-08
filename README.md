@@ -7,7 +7,7 @@ it is called girly-notebook because it is based on the school notebooks of my ch
 
 it is currently a work in progress and not everything is themed yet.  but look how it looks!
 
-![A screenshot of the theme. The pallete is vivid and feminine, and elements such as strings and comments are in cusrive.](/screenshot.png?raw=true)
+![A screenshot of the theme. The pallete is vivid and feminine, and elements such as strings and comments are in cusrive.](/screenshot1.png?raw=true)
 
 installation
 ============
