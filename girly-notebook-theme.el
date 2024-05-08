@@ -4,7 +4,7 @@
 ;; URL: https://github.com/melissaboiko/girly-notebook
 ;; Created: May 8, 2024
 ;; Modified: May 8, 2024
-;; Version: 1.0
+;; Version: 1.1
 ;; Package-Requires: ((emacs "26.1"))
 
 ;; This package is free software: you can redistribute it and/or
@@ -88,6 +88,11 @@ Version: 2024-05-08."
  '(next-error ((t (:inherit (region)))))
  '(query-replace ((t (:inherit (isearch)))))
  '(custom-state ((t (:foreground "lime green")))))
+
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'girly-notebook)
 
