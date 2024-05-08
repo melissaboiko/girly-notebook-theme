@@ -33,9 +33,7 @@
 A light theme based on chee's lychee-theme.el.  Requires the following fonts:
  - Iosevka SS05
  - Iosevka Aile
- - Victor Mono
-
-Version: 2024-05-08."
+ - Victor Mono"
   :background-mode 'light)
 
 (custom-theme-set-faces
