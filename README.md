@@ -34,4 +34,4 @@ thanks
 ======
 
 thank you chee for writing lychee-theme.el    
-https://github.com/chee/lychee-theme.el/tree/master
+https://github.com/chee/lychee-theme.el
