@@ -31,6 +31,9 @@ alternative: manual install
 2. on your init file, add this: `(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")`.
 3. evaluate then u can do: `M-x` load-theme `RET` `girly-notebook` `RET` .
 
+to autoload at start up
+-----------------------
+run `M-x` customize-theme.  tick the `girly-notebook` checkbox and click save.
 
 changing font families or sizes
 ===============================
