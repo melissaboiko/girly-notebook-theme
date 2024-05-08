@@ -7,6 +7,14 @@
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "26.1"))
 
+;; This package is free software: you can redistribute it and/or
+;; modify it under the terms of the GNU General Public License, either
+;; version 3, or (at your option) any later version.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with this software.  If not, see
+;; <https://www.gnu.org/licenses/>.
+
 ;;; Commentary:
 
 ;; A light theme with vivid colours and cursive text.  Inspired by schoolgirl notebooks and chee's lychee-theme.el .
