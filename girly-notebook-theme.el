@@ -1,3 +1,24 @@
+;;; girly-notebook-theme.el --- A light theme with vivid colours and cursive text -*- lexical-binding: t; -*-
+
+;; Author: elilla& <elilla@transmom.love>
+;; URL: https://github.com/melissaboiko/girly-notebook
+;; Created: May 8, 2024
+;; Modified: May 8, 2024
+;; Version: 1.0
+;; Package-Requires: ((emacs "26.1"))
+
+;;; Commentary:
+
+;; A light theme with vivid colours and cursive text.  Inspired by schoolgirl notebooks and chee's lychee-theme.el .
+
+;; Requires the following system fonts to be installed:
+
+;; - Iosevka SS05
+;; - Iosevka Aile
+;; - Victor Mono
+
+;;; Code:
+
 (deftheme girly-notebook
   "girly-notebook: I love you and colours more.
 
@@ -61,3 +82,5 @@ Version: 2024-05-08."
  '(custom-state ((t (:foreground "lime green")))))
 
 (provide-theme 'girly-notebook)
+
+;;; girly-notebook-theme.el ends here
