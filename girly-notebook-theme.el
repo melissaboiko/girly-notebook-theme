@@ -15,6 +15,8 @@ Version: 2024-05-08."
  '(cursor ((t (:background "deep pink"))))
  '(fixed-pitch ((t (:inherit (default)))))
  '(variable-pitch ((t (:family "Iosevka Aile" :height 0.9))))
+ '(italic ((t (:family "Victor Mono" :height 0.9 :slant italic :weight semibold))))
+ '(bold-italic ((t (:inherit italic :slant italic :weight extra-bold))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
  '(homoglyph ((t (:inherit (escape-glyph)))))
  '(minibuffer-prompt ((t (:foreground "blue"))))
@@ -55,6 +57,7 @@ Version: 2024-05-08."
  '(lazy-highlight ((((class color) (min-colors 88) (background light)) (:background "paleturquoise")) (((class color) (min-colors 88) (background dark)) (:background "paleturquoise4")) (((class color) (min-colors 16)) (:background "turquoise3")) (((class color) (min-colors 8)) (:background "turquoise3")) (t (:underline (:color foreground-color :style line)))))
  '(match ((((class color) (min-colors 88) (background light)) (:background "khaki1")) (((class color) (min-colors 88) (background dark)) (:background "RoyalBlue3")) (((class color) (min-colors 8) (background light)) (:foreground "black" :background "yellow")) (((class color) (min-colors 8) (background dark)) (:foreground "white" :background "blue")) (((type tty) (class mono)) (:inverse-video t)) (t (:background "gray"))))
  '(next-error ((t (:inherit (region)))))
- '(query-replace ((t (:inherit (isearch))))))
+ '(query-replace ((t (:inherit (isearch)))))
+ '(custom-state ((t (:foreground "lime green")))))
 
 (provide-theme 'girly-notebook)
