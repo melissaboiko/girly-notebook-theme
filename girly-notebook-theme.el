@@ -1,7 +1,7 @@
 ;;; girly-notebook-theme.el --- A light theme with vivid colours and cursive text -*- lexical-binding: t; -*-
 
 ;; Author: elilla& <elilla@transmom.love>
-;; URL: https://github.com/melissaboiko/girly-notebook
+;; URL: https://github.com/melissaboiko/girly-notebook-theme
 ;; Created: May 8, 2024
 ;; Modified: May 8, 2024
 ;; Version: 1.2
