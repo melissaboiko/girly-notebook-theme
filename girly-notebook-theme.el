@@ -4,7 +4,7 @@
 ;; URL: https://github.com/melissaboiko/girly-notebook-theme
 ;; Created: May 8, 2024
 ;; Modified: May 8, 2024
-;; Version: 1.2
+;; Version: 1.2.1
 ;; Package-Requires: ((emacs "26.1"))
 
 ;; This package is free software: you can redistribute it and/or
@@ -29,7 +29,8 @@
 ;; Notice that different fonts might not align in monospace.  If you
 ;; customise the fonts, I recommend using my package `show-font-mode'
 ;; to compare glyph pixel sizes and adjust face proportions until
-;; their pixel width is the same.
+;; their pixel width is the same.  The faces used as bases for most
+;; others are: `default', `italic', `variable-pitch' and `bold-italic'.
 
 ;;; Code:
 
