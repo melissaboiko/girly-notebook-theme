@@ -52,10 +52,11 @@ make text smaller, u can `M-x` customize-face default `RET` and change
 its height.  hopefully the proportions will still work.
 
 to use other families or fix misalignment, i recommend installing my
-package `show-fonts-mode` from melpa.  then u can see the pixel size
-of character at point.  play with the proportions til everything has
-the same pixel width.  at the sizes we used, Victor Mono Italic needed
-to be 0.9× Iosevka SS05 so that both are 14px.
+package `show-fonts-mode` from melpa.  then u can see the pixel size of
+character at point.  then customise base faces `italic` and `bold-italic`,
+& play with the proportions til everything has the same pixel width.  at
+the sizes we used, Victor Mono Italic needed to be 0.9× Iosevka SS05 so
+that both are 14px.
 
 thanks
 ======
