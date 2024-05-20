@@ -16,20 +16,20 @@ but look how it looks!
 installation
 ============
 
-1. prerequisites
+step 1. prerequisites
 ----------------
 you have to install the fonts (impornatn!!):
  - Iosevka SS05
  - Iosevka Aile
  - Victor Mono
 
-2. package install
+step 2. package install
 ------------------
 
 girly-notebook-theme is on melpa, and can be installed normally
 from `M-x list-packages` .
 
-3. apply theme
+step 3. apply theme
 --------------
 
 run `M-x` customize-theme.  tick the `girly-notebook` checkbox and
@@ -47,8 +47,8 @@ from package source
 2. `M-x` package-install-file `RET` and select the file.
 3. `M-x` customize-theme .
 
-alternative: manual install
----------------------------
+manual install
+--------------
 1. save `girly-notebook-theme.el` on `~/.emacs.d/themes/`.
 2. on your init file, add this:
    `(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")`.
